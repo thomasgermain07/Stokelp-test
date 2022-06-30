@@ -18,6 +18,8 @@ export default function OfferList() {
             picture_url={offer.pictures_urls[0]}
             name={offer.name}
             origin={offer.region}
+            price={offer.latest_price}
+            unit={offer.unit}
           />
         );
       })}

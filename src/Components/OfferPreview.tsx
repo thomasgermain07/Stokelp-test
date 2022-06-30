@@ -4,12 +4,16 @@ interface IOfferPreviewProps {
   picture_url: string;
   name: string;
   origin: string;
+  price: number;
+  unit: string;
 }
 
 export default function OfferPreview({
   picture_url,
   name,
   origin,
+  price,
+  unit,
 }: IOfferPreviewProps) {
   return (
     <Card sx={{ width: "250px" }} elevation={0}>
@@ -17,6 +21,9 @@ export default function OfferPreview({
       <CardContent sx={{ alignContent: "left" }}>
         <Typography>{name}</Typography>
         <Typography>{origin}</Typography>
+        <Typography>
+          {price}/{unit}
+        </Typography>
       </CardContent>
     </Card>
   );
