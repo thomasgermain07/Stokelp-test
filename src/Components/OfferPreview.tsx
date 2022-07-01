@@ -22,7 +22,7 @@ export default function OfferPreview({
         <Typography>{name}</Typography>
         <Typography>{origin}</Typography>
         <Typography>
-          {price}/{unit}
+          {price}€/{unit}
         </Typography>
       </CardContent>
     </Card>
