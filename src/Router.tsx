@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Homepage from "./Views/Homepage";
+import Fruits from "./Views/Fruits";
 
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
+      <Route path="/" element={<Fruits />}></Route>
     </Routes>
   );
 }
