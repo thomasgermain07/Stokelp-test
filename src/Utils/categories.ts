@@ -24,10 +24,10 @@ export const categories: { [key: string]: string } = {
   all: "Toutes les categories",
   fruits: "Fruits",
   vegetable: "Légumes",
-  fish: "Poissons",
-  meat: "Viandes",
+  fish: "Marée",
+  meat: "Boucherie",
   herbs: "Condiments",
   ingredients: "Ingrédients",
-  creamery: "Crémerie",
+  creamery: "Crèmerie",
   foodPackaging: "Conditionnements alimentaires",
 };
